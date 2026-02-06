@@ -63,6 +63,154 @@ const LandingPage = () => {
           </div>
         </section>
 
+        <section className="py-24">
+          <div className="mx-auto max-w-[1200px] px-6">
+            <div className="text-center mb-16">
+              <h2 className="text-primary text-sm font-bold uppercase mb-4">Our Services</h2>
+              <h3 className="text-graphite dark:text-white text-4xl md:text-5xl font-black mb-4">Everything Your Business Needs Online</h3>
+              <p className="text-graphite/70 dark:text-slate-400 text-lg max-w-2xl mx-auto">
+                From websites to customer support, we provide complete digital solutions for local businesses.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+              <div className="p-6 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl hover:shadow-lg transition-shadow">
+                <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
+                  <span className="material-symbols-outlined text-primary text-2xl">web</span>
+                </div>
+                <h4 className="text-graphite dark:text-white text-lg font-bold mb-2">Professional Websites</h4>
+                <p className="text-graphite/60 dark:text-slate-400 text-sm">
+                  Beautiful, fast websites that showcase your business and attract customers 24/7.
+                </p>
+              </div>
+
+              <div className="p-6 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl hover:shadow-lg transition-shadow">
+                <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
+                  <span className="material-symbols-outlined text-primary text-2xl">chat</span>
+                </div>
+                <h4 className="text-graphite dark:text-white text-lg font-bold mb-2">WhatsApp Integration</h4>
+                <p className="text-graphite/60 dark:text-slate-400 text-sm">
+                  Connect with customers on WhatsApp - the app they already use every day.
+                </p>
+              </div>
+
+              <div className="p-6 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl hover:shadow-lg transition-shadow">
+                <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
+                  <span className="material-symbols-outlined text-primary text-2xl">smart_toy</span>
+                </div>
+                <h4 className="text-graphite dark:text-white text-lg font-bold mb-2">Auto-Reply Systems</h4>
+                <p className="text-graphite/60 dark:text-slate-400 text-sm">
+                  Never miss a customer inquiry. Automated responses keep customers engaged 24/7.
+                </p>
+              </div>
+
+              <div className="p-6 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl hover:shadow-lg transition-shadow">
+                <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
+                  <span className="material-symbols-outlined text-primary text-2xl">apps</span>
+                </div>
+                <h4 className="text-graphite dark:text-white text-lg font-bold mb-2">Web Applications</h4>
+                <p className="text-graphite/60 dark:text-slate-400 text-sm">
+                  Custom tools to manage inventory, bookings, orders, and more for your business.
+                </p>
+              </div>
+            </div>
+
+            <div className="text-center">
+              <Link to="/services" className="inline-block bg-primary hover:bg-primary/90 text-white px-8 py-4 rounded-lg font-bold">
+                View All Services
+              </Link>
+            </div>
+          </div>
+        </section>
+
+        <section className="bg-slate-50 dark:bg-slate-900/30 py-24">
+          <div className="mx-auto max-w-[1200px] px-6">
+            <div className="text-center mb-16">
+              <h2 className="text-primary text-sm font-bold uppercase mb-4">How It Works</h2>
+              <h3 className="text-graphite dark:text-white text-4xl md:text-5xl font-black mb-4">Get Online in 4 Simple Steps</h3>
+              <p className="text-graphite/70 dark:text-slate-400 text-lg max-w-2xl mx-auto">
+                We make it easy to take your business online. No tech skills needed.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+              <div className="text-center">
+                <div className="w-16 h-16 bg-primary text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">1</div>
+                <h4 className="text-graphite dark:text-white text-lg font-bold mb-2">Tell Us About Your Business</h4>
+                <p className="text-graphite/60 dark:text-slate-400 text-sm">
+                  Quick chat about what you do and what you need.
+                </p>
+              </div>
+
+              <div className="text-center">
+                <div className="w-16 h-16 bg-primary text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">2</div>
+                <h4 className="text-graphite dark:text-white text-lg font-bold mb-2">We Build Your Solution</h4>
+                <p className="text-graphite/60 dark:text-slate-400 text-sm">
+                  Our team creates your website, chatbot, or app in 48 hours.
+                </p>
+              </div>
+
+              <div className="text-center">
+                <div className="w-16 h-16 bg-primary text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">3</div>
+                <h4 className="text-graphite dark:text-white text-lg font-bold mb-2">Review & Launch</h4>
+                <p className="text-graphite/60 dark:text-slate-400 text-sm">
+                  You check everything, we make tweaks, then go live.
+                </p>
+              </div>
+
+              <div className="text-center">
+                <div className="w-16 h-16 bg-primary text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">4</div>
+                <h4 className="text-graphite dark:text-white text-lg font-bold mb-2">Grow Your Business</h4>
+                <p className="text-graphite/60 dark:text-slate-400 text-sm">
+                  Start reaching more customers online. We're here if you need us.
+                </p>
+              </div>
+            </div>
+
+            <div className="text-center mt-12">
+              <Link to="/process" className="inline-block border-2 border-primary text-primary hover:bg-primary hover:text-white px-8 py-4 rounded-lg font-bold transition-colors">
+                Learn More About Our Process
+              </Link>
+            </div>
+          </div>
+        </section>
+
+        <section className="py-24">
+          <div className="mx-auto max-w-[1200px] px-6">
+            <div className="text-center mb-16">
+              <h2 className="text-primary text-sm font-bold uppercase mb-4">Who We Help</h2>
+              <h3 className="text-graphite dark:text-white text-4xl md:text-5xl font-black mb-4">Perfect for Local Businesses</h3>
+            </div>
+
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
+              <div className="text-center p-6 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl">
+                <span className="material-symbols-outlined text-primary text-4xl mb-2">store</span>
+                <p className="text-graphite dark:text-white text-sm font-semibold">Retail Shops</p>
+              </div>
+              <div className="text-center p-6 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl">
+                <span className="material-symbols-outlined text-primary text-4xl mb-2">restaurant</span>
+                <p className="text-graphite dark:text-white text-sm font-semibold">Restaurants</p>
+              </div>
+              <div className="text-center p-6 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl">
+                <span className="material-symbols-outlined text-primary text-4xl mb-2">content_cut</span>
+                <p className="text-graphite dark:text-white text-sm font-semibold">Salons</p>
+              </div>
+              <div className="text-center p-6 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl">
+                <span className="material-symbols-outlined text-primary text-4xl mb-2">build</span>
+                <p className="text-graphite dark:text-white text-sm font-semibold">Services</p>
+              </div>
+              <div className="text-center p-6 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl">
+                <span className="material-symbols-outlined text-primary text-4xl mb-2">local_hospital</span>
+                <p className="text-graphite dark:text-white text-sm font-semibold">Clinics</p>
+              </div>
+              <div className="text-center p-6 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl">
+                <span className="material-symbols-outlined text-primary text-4xl mb-2">more_horiz</span>
+                <p className="text-graphite dark:text-white text-sm font-semibold">And More</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <section className="bg-primary py-20">
           <div className="mx-auto max-w-[960px] px-6 text-center text-white space-y-8">
             <h2 className="text-4xl md:text-5xl font-black">Ready to Get Your Business Online?</h2>

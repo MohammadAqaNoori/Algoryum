@@ -31,7 +31,10 @@ const HomePage = () => {
                 </div>
               </div>
               <div className="hidden lg:block flex-1">
-                <div className="aspect-[4/3] bg-slate-200 dark:bg-slate-800 rounded-2xl shadow-2xl"></div>
+                <div className="aspect-[4/3] bg-slate-200 dark:bg-slate-800 rounded-2xl overflow-hidden relative shadow-2xl">
+                  <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-transparent"></div>
+                  <div className="w-full h-full bg-cover bg-center" style={{backgroundImage: 'url("https://lh3.googleusercontent.com/aida-public/AB6AXuA53jNmAAQ-J9ZSgkVzFa7GgyK1oV3rMDmxizQo2gVdLnFrVJ226y9jqGb7GPY_TZymDVrRCGiKg5zeSbttSZzZ-1ucY4KZJyIn3dOu3iX3jh4dupu9Orfv5eNbbgCjtNT7wvoYiTeHJi7XrdHROa8-NfYFjQphlp51shuVUMph4chgMOB_cSt8zzoW3tXUUo-aMiGG4I5wokrmuPNUOsAQVMSng5hGeCxXaD9Xt8q_oU4NF51tZvFUV0Pc_VWt0btDyakzZuTuEBiM")'}}></div>
+                </div>
               </div>
             </div>
           </div>

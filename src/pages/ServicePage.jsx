@@ -20,7 +20,7 @@ const ServicePage = () => {
                   We bridge the gap between traditional commerce and the digital economy.
                 </p>
               </div>
-              <div className="w-full lg:w-1/2 aspect-video bg-slate-200 dark:bg-slate-800 rounded-xl"></div>
+              <div className="w-full lg:w-1/2 aspect-video bg-slate-200 dark:bg-slate-800 rounded-xl bg-cover bg-center" style={{backgroundImage: 'url("https://lh3.googleusercontent.com/aida-public/AB6AXuBR2p1ZzahLxWKvtId-7dA_GmU8QoHON6hLzvb-IwX3yarjCuCNySGW5-aZXqYEWe3hK28ENao0OpbSlc-kDn-ZuRGGpM71VBFnctpCA-sMAII598GkxhEc8VQGC-CA6ev-TAFFmIv3FILS4aTz4yWk2030Uh71AA9ZNnmCNFOt8w6rafv1bNLf2Nb3j-4KB30WVUi2-yx0S4VAYMCq0uy7WwzyU6w7o8TdxRRdGRSNA6dfrOheqmP0IWE5I7nvoWUovsTrwCY_9HEi")'}}></div>
             </div>
           </section>
 
@@ -31,7 +31,7 @@ const ServicePage = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
             <div className="flex flex-col rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 overflow-hidden">
-              <div className="w-full h-48 bg-slate-200 dark:bg-slate-800"></div>
+              <div className="w-full h-48 bg-slate-200 dark:bg-slate-800 bg-cover bg-center" style={{backgroundImage: 'url("https://lh3.googleusercontent.com/aida-public/AB6AXuBO1hI8yMzu0OuNYQbaq-CANNlCWCYUKo5I0sl-CGGs64hMSu0eUZueeEZC7OKm0cTHJxIRcAVtM4bn0cXpMMLqwYnsNsonHn02gafvRH7hZy5QoxQusp2OEEV0Ll8ZOXLnUw2Q7CWeVW5ntX9tI2X9cNAOt48rHKnpNVLnk1DMJAbSpLlsDEEtAndXdBEa2meKwKrQTbOCNX9tFIcbDp2M9Ssybtq4ZfkMcUOsY2YmgPP5yeSnlu0iAh6XXoAbJKh7J768ufg2BuFj")'}}></div>
               <div className="p-6 flex flex-col gap-4">
                 <div className="flex items-center gap-3 text-primary">
                   <span className="material-symbols-outlined">web</span>
@@ -44,7 +44,7 @@ const ServicePage = () => {
             </div>
 
             <div className="flex flex-col rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 overflow-hidden">
-              <div className="w-full h-48 bg-slate-200 dark:bg-slate-800"></div>
+              <div className="w-full h-48 bg-slate-200 dark:bg-slate-800 bg-cover bg-center" style={{backgroundImage: 'url("https://lh3.googleusercontent.com/aida-public/AB6AXuB5oMObrpg1gzxQtng3i0i0a6jpzPzq5udPpyR_Q9obcNbvBhssK090T_WhKCtKEnpwNEoOJEG9sl9OUSRLSsU30wj19hBdy1fV2JLsaDkJp4fBnGvXz-KHFCAqWJgkkzkYlWyvVO42YHfb9OndtsB8X4IswF2BJr7iH07QO4CzP706k8GD_bS8n8ftbrFR7HxSeaxKw__vza1dTY0E5Slh6dJOCITnq-2GmS0pdzDYDAtNsr9oF1n6Hs2TwyOOTLI-M1zhAArIFBh5")'}}></div>
               <div className="p-6 flex flex-col gap-4">
                 <div className="flex items-center gap-3 text-primary">
                   <span className="material-symbols-outlined">chat_bubble</span>
@@ -57,7 +57,7 @@ const ServicePage = () => {
             </div>
 
             <div className="flex flex-col rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 overflow-hidden">
-              <div className="w-full h-48 bg-slate-200 dark:bg-slate-800"></div>
+              <div className="w-full h-48 bg-slate-200 dark:bg-slate-800 bg-cover bg-center" style={{backgroundImage: 'url("https://lh3.googleusercontent.com/aida-public/AB6AXuBC5p6D53dNofuj7i4MJEivlilhVvDx5SDGx5d3dvkZmNDKDlnsTy4c8L0l-SSfK840aq8ADjLGJTA1fENUrLnetE8N12Wt8mKuMmEdeGAssy7uEbSomRbVIw4FZLYR4SU6ag3qUqnMly0It_b7EJ6wilikW9OJZAlo-2proqe8RzFtpRT4LO-Gjez3vMWDMPoA5wEENrHDtCy8ZEh3IShUP-dS-jpMzFFsodFu0kEXK79esdLeUXE3TU5sBYQ6VnFyyBikM42hzMxI")'}}></div>
               <div className="p-6 flex flex-col gap-4">
                 <div className="flex items-center gap-3 text-primary">
                   <span className="material-symbols-outlined">travel_explore</span>
@@ -71,7 +71,7 @@ const ServicePage = () => {
 
             <div className="flex flex-col rounded-xl border-2 border-primary/30 bg-white dark:bg-slate-900 overflow-hidden relative">
               <div className="absolute top-4 right-4 bg-primary text-white text-xs font-bold px-3 py-1 rounded-full uppercase">Featured</div>
-              <div className="w-full h-48 bg-slate-200 dark:bg-slate-800"></div>
+              <div className="w-full h-48 bg-slate-200 dark:bg-slate-800 bg-cover bg-center" style={{backgroundImage: 'url("https://lh3.googleusercontent.com/aida-public/AB6AXuC3yoEgOGK6H1dS7RBzLw1rwUuZe-KzDb96LF9IHovysA3Fxuwnaj-2rpkgEXssUjidjzz3v3OrykNuaCGLUTJBStLkyPHrO6HMR7h6G9gJYvOUcGQRgjUIYMpTyXMfcCtXhrYInTINqvhWPrZfsq9Z3gs3zVaKX4lqWz_T0q8U783CkaGVOG_YAMFu927Bf4T7lDgOAKy9MEsMYl7tbfs-oy1a68ny6icV0Ix7aGffFZAa8rd3q5i-VIeCBlCbnZTVcZY2nAR1aWdc")'}}></div>
               <div className="p-6 flex flex-col gap-4">
                 <div className="flex items-center gap-3 text-primary">
                   <span className="material-symbols-outlined">smart_toy</span>

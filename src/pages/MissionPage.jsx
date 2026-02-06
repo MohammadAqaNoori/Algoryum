@@ -10,7 +10,7 @@ const MissionPage = () => {
       <main className="flex flex-1 flex-col items-center">
         <div className="flex flex-col max-w-[960px] w-full py-10 px-4">
           <div className="flex flex-col lg:flex-row gap-6 py-10 items-center">
-            <div className="w-full bg-slate-200 dark:bg-slate-800 aspect-video rounded-xl lg:w-1/2 border border-slate-200 dark:border-slate-700"></div>
+            <div className="w-full bg-slate-200 dark:bg-slate-800 aspect-video rounded-xl lg:w-1/2 border border-slate-200 dark:border-slate-700 overflow-hidden shadow-sm bg-cover bg-center" style={{backgroundImage: 'url("https://lh3.googleusercontent.com/aida-public/AB6AXuCAL9QaEVOQb12xb9QrjZvh52WVsyRBz4xr8x0CJZN7fiMqATBhwqsCNr1eSffkkdTVwzwW93U4xRLXDt6pibzZa_PsOZEULtQ-rcT99Nim61dckfiVnASrsiGhxXaX5XpiCz7upknPJgIwQKqmccTJc7PFGfEzN6j_L3jxnkglgwt4CeYgTS9qh6QQ0nQ4TsUwQ9dhwoWSd7FIVcPYmYSE7zB2LqdreVY4L1qnhhq2wWUP9f8UiC5wdndCKVYqhN-Zy0sqIQk2JxZm")'}}></div>
             <div className="flex flex-col gap-6 lg:w-1/2">
               <span className="text-primary font-bold text-sm uppercase">About Algoryum</span>
               <h1 className="text-[#0e131b] dark:text-white text-4xl md:text-5xl font-black">

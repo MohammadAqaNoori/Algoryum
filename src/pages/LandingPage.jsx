@@ -27,7 +27,10 @@ const LandingPage = () => {
                 </Link>
               </div>
             </div>
-            <div className="aspect-video lg:aspect-square w-full bg-slate-200 dark:bg-slate-800 rounded-xl shadow-2xl"></div>
+            <div className="relative aspect-video lg:aspect-square w-full bg-slate-200 dark:bg-slate-800 rounded-xl overflow-hidden shadow-2xl transition-transform hover:scale-[1.01]">
+              <div className="absolute inset-0 bg-cover bg-center" style={{backgroundImage: 'url("https://lh3.googleusercontent.com/aida-public/AB6AXuBkGls3tIVkbvQfqmOtuf_KSyKuiro2GWxjPlWtsEGGrcKStlk5CedZvpTDLTQn7hhd2kiGGyXHfRSa_23-PExUoWjjqpuGUOgv_ehWHQyk8_8B25Wa-4vwo1ggRIYViAbjp1liboMVqlxTbh3d8CRL3znsO_hfxpV6c5ClBcaBppO6b_A1JZQjKlJ7hbOtP4ca1lfUXpQiw-fUvJ0GvrnvBtetAApCgxTjXtP9jKDo2K50ZLF8XQjP-v4J-Na7pUvbUHIpW4y9LlrK")'}}></div>
+              <div className="absolute inset-0 bg-primary/10 mix-blend-multiply"></div>
+            </div>
           </div>
         </section>
 

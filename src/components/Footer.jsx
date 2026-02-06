@@ -7,12 +7,11 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
           <div className="col-span-1 md:col-span-2 space-y-4">
             <div className="flex items-center gap-3">
-              <div className="text-primary">
-                <svg className="size-6" fill="currentColor" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
-                  <path clipRule="evenodd" d="M24 4H42V17.3333V30.6667H24V44H6V30.6667V17.3333H24V44Z" fillRule="evenodd"></path>
-                </svg>
-              </div>
-              <h2 className="text-graphite dark:text-white text-xl font-black uppercase">ALGORYUM</h2>
+              <img 
+                src="https://lh3.googleusercontent.com/gg/AMW1TPqTF7VY7JcwDSONw1SrSnFeoWcmM1chxhsw4UYO6pFc8LLUfNb3YlgznjjmcPyaq45S9oYiw0b2rLNQFJmTpK4W8HXkcYQQvJKLMHDZEmmCD9asi6Iqk0n95r1h6zPIsuWWG7hl4h0vtXZ13qw7IWPPQ04kLmheti870BhOV0MnKgxTDRI=s1024-rj-mp2" 
+                alt="Algoryum Logo" 
+                className="h-12 w-auto object-contain"
+              />
             </div>
             <p className="text-graphite/60 dark:text-slate-400 text-sm leading-relaxed max-w-[320px]">
               Helping local businesses get online and grow. Simple, effective, and built for you.

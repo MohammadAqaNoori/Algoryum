@@ -1,8 +1,37 @@
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 
 const ConnectPage = () => {
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    message: ''
+  })
+
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    
+    // Create WhatsApp message
+    const whatsappMessage = `Hello! I'm interested in Algoryum services.%0A%0AName: ${formData.name}%0AEmail: ${formData.email}%0A%0AMessage: ${formData.message}`
+    
+    // Open WhatsApp with pre-filled message
+    window.open(`https://wa.me/93708824113?text=${whatsappMessage}`, '_blank')
+  }
+
+  const handleChange = (e) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value
+    })
+  }
+
+  const handleScheduleCall = () => {
+    // Open WhatsApp with scheduling message
+    const scheduleMessage = `Hello! I'd like to schedule a free 30-minute consultation with Algoryum.`
+    window.open(`https://wa.me/93708824113?text=${encodeURIComponent(scheduleMessage)}`, '_blank')
+  }
   return (
     <div className="relative flex min-h-screen w-full flex-col bg-background-light dark:bg-background-dark text-[#0e131b] dark:text-slate-50">
       <Header activeLink="connect" />
@@ -57,7 +86,7 @@ const ConnectPage = () => {
               <p className="text-slate-600 dark:text-slate-400 text-sm mb-4">
                 Schedule a free 30-minute consultation.
               </p>
-              <button className="mt-auto border border-slate-200 dark:border-slate-700 px-4 py-2 rounded-lg font-bold">
+              <button onClick={handleScheduleCall} className="mt-auto border border-slate-200 dark:border-slate-700 px-4 py-2 rounded-lg font-bold">
                 Schedule Now
               </button>
             </div>
@@ -69,12 +98,16 @@ const ConnectPage = () => {
               Fill out the form below and we'll get back to you within 24 hours.
             </p>
             
-            <form className="space-y-6">
+            <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
                   <label className="block text-sm font-semibold mb-2">Full Name *</label>
                   <input 
-                    type="text" 
+                    type="text"
+                    name="name"
+                    value={formData.name}
+                    onChange={handleChange}
+                    required
                     className="w-full px-4 py-3 rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800"
                     placeholder="Your Name"
                   />
@@ -82,7 +115,11 @@ const ConnectPage = () => {
                 <div>
                   <label className="block text-sm font-semibold mb-2">Email Address *</label>
                   <input 
-                    type="email" 
+                    type="email"
+                    name="email"
+                    value={formData.email}
+                    onChange={handleChange}
+                    required
                     className="w-full px-4 py-3 rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800"
                     placeholder="youremail@example.com"
                   />
@@ -93,6 +130,10 @@ const ConnectPage = () => {
                 <label className="block text-sm font-semibold mb-2">Message *</label>
                 <textarea 
                   rows="5"
+                  name="message"
+                  value={formData.message}
+                  onChange={handleChange}
+                  required
                   className="w-full px-4 py-3 rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 resize-none"
                   placeholder="Tell us about your business..."
                 ></textarea>
@@ -100,7 +141,7 @@ const ConnectPage = () => {
 
               <button 
                 type="submit"
-                className="bg-primary text-white px-10 py-4 rounded-lg font-bold"
+                className="bg-primary text-white px-10 py-4 rounded-lg font-bold hover:bg-primary/90 transition-colors"
               >
                 Send Message
               </button>

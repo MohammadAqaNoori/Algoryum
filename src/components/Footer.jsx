@@ -10,7 +10,7 @@ const Footer = () => {
               <img 
                 src="https://lh3.googleusercontent.com/gg/AMW1TPqTF7VY7JcwDSONw1SrSnFeoWcmM1chxhsw4UYO6pFc8LLUfNb3YlgznjjmcPyaq45S9oYiw0b2rLNQFJmTpK4W8HXkcYQQvJKLMHDZEmmCD9asi6Iqk0n95r1h6zPIsuWWG7hl4h0vtXZ13qw7IWPPQ04kLmheti870BhOV0MnKgxTDRI=s1024-rj-mp2" 
                 alt="Algoryum Logo" 
-                className="h-14 w-14 object-contain mix-blend-multiply dark:mix-blend-screen"
+                className="h-16 w-16 object-contain mix-blend-multiply dark:mix-blend-screen"
                 style={{filter: 'contrast(1.2)'}}
               />
               <h2 className="text-graphite dark:text-white text-2xl font-black uppercase">ALGORYUM</h2>

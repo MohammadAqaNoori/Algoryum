@@ -10,8 +10,7 @@ const Footer = () => {
               <img 
                 src="https://lh3.googleusercontent.com/gg/AMW1TPqTF7VY7JcwDSONw1SrSnFeoWcmM1chxhsw4UYO6pFc8LLUfNb3YlgznjjmcPyaq45S9oYiw0b2rLNQFJmTpK4W8HXkcYQQvJKLMHDZEmmCD9asi6Iqk0n95r1h6zPIsuWWG7hl4h0vtXZ13qw7IWPPQ04kLmheti870BhOV0MnKgxTDRI=s1024-rj-mp2" 
                 alt="Algoryum Logo" 
-                className="h-16 w-16 object-contain mix-blend-multiply dark:mix-blend-screen"
-                style={{filter: 'contrast(1.2)'}}
+                className="h-16 w-16 object-contain"
               />
               <h2 className="text-graphite dark:text-white text-2xl font-black uppercase">ALGORYUM</h2>
             </Link>
@@ -48,8 +47,8 @@ const Footer = () => {
         <div className="mt-12 pt-8 border-t border-slate-100 dark:border-slate-900 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-graphite/40 dark:text-slate-600 text-xs">© 2024 ALGORYUM. All rights reserved.</p>
           <div className="flex gap-6">
-            <a href="#" className="text-graphite/40 dark:text-slate-600 text-xs hover:text-primary">Privacy Policy</a>
-            <a href="#" className="text-graphite/40 dark:text-slate-600 text-xs hover:text-primary">Terms of Service</a>
+            <Link to="/connect" className="text-graphite/40 dark:text-slate-600 text-xs hover:text-primary">Contact Us</Link>
+            <a href="https://wa.me/93708824113" target="_blank" rel="noopener noreferrer" className="text-graphite/40 dark:text-slate-600 text-xs hover:text-primary">WhatsApp Support</a>
           </div>
         </div>
       </div>

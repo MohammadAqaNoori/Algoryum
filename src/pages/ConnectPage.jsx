@@ -14,10 +14,10 @@ const ConnectPage = () => {
             <div className="flex flex-col gap-6 lg:w-1/2">
               <span className="text-primary font-bold text-sm uppercase">Get In Touch</span>
               <h1 className="text-4xl md:text-5xl font-black">
-                Let's Build Your Digital Future Together
+                Let's Get Your Business Online
               </h1>
               <p className="text-slate-600 dark:text-slate-400">
-                Ready to take your local business online? Our team is here to guide you.
+                Ready to reach more customers? We're here to help make it happen.
               </p>
             </div>
           </div>
@@ -29,7 +29,7 @@ const ConnectPage = () => {
               </div>
               <h3 className="text-xl font-bold mb-2">WhatsApp</h3>
               <p className="text-slate-600 dark:text-slate-400 text-sm mb-4">
-                Quick response for urgent inquiries.
+                Need a quick answer? Message us on WhatsApp.
               </p>
               <button className="mt-auto bg-primary text-white px-4 py-2 rounded-lg font-bold">
                 Start Chat

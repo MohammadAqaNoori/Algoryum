@@ -14,10 +14,10 @@ const MissionPage = () => {
             <div className="flex flex-col gap-6 lg:w-1/2">
               <span className="text-primary font-bold text-sm uppercase">About Algoryum</span>
               <h1 className="text-[#0e131b] dark:text-white text-4xl md:text-5xl font-black">
-                Architecting the Digital Future for Local Enterprise
+                Building Digital Solutions for Local Businesses
               </h1>
               <p className="text-slate-600 dark:text-slate-400">
-                We specialize in the bridge between established tradition and digital efficiency.
+                We help traditional businesses thrive in the digital age without losing what makes them special.
               </p>
             </div>
           </div>
@@ -25,7 +25,7 @@ const MissionPage = () => {
           <div className="bg-white dark:bg-[#1a212c] rounded-xl my-10 border border-slate-100 dark:border-slate-800 p-8">
             <h2 className="text-[#0e131b] dark:text-white text-3xl font-bold text-center mb-4">Our Mission</h2>
             <p className="text-[#0e131b] dark:text-slate-300 text-lg text-center italic">
-              "To provide local businesses with the enterprise-grade digital tools and strategic clarity needed to thrive in an evolving technological landscape."
+              "To give every local business the digital tools they need to compete and grow, without the complexity or high costs."
             </p>
           </div>
 
@@ -39,27 +39,27 @@ const MissionPage = () => {
               <div className="flex items-center justify-center w-12 h-12 bg-primary/10 rounded-lg mb-4">
                 <span className="material-symbols-outlined text-primary">visibility</span>
               </div>
-              <h3 className="text-[#0e131b] dark:text-white text-xl font-bold mb-2">Clarity</h3>
+              <h3 className="text-[#0e131b] dark:text-white text-xl font-bold mb-2">Keep It Simple</h3>
               <p className="text-slate-600 dark:text-slate-400 text-sm">
-                We strip away complexity to provide actionable strategies.
+                No jargon, no confusion. Just clear steps to get you online.
               </p>
             </div>
             <div className="flex flex-col p-6 bg-white dark:bg-[#1a212c] rounded-xl border border-slate-100 dark:border-slate-800">
               <div className="flex items-center justify-center w-12 h-12 bg-primary/10 rounded-lg mb-4">
                 <span className="material-symbols-outlined text-primary">verified_user</span>
               </div>
-              <h3 className="text-[#0e131b] dark:text-white text-xl font-bold mb-2">Reliability</h3>
+              <h3 className="text-[#0e131b] dark:text-white text-xl font-bold mb-2">Always There</h3>
               <p className="text-slate-600 dark:text-slate-400 text-sm">
-                Enterprise-grade foundations with long-term stability.
+                Your website works 24/7, and we're here when you need help.
               </p>
             </div>
             <div className="flex flex-col p-6 bg-white dark:bg-[#1a212c] rounded-xl border border-slate-100 dark:border-slate-800">
               <div className="flex items-center justify-center w-12 h-12 bg-primary/10 rounded-lg mb-4">
                 <span className="material-symbols-outlined text-primary">handshake</span>
               </div>
-              <h3 className="text-[#0e131b] dark:text-white text-xl font-bold mb-2">Trust</h3>
+              <h3 className="text-[#0e131b] dark:text-white text-xl font-bold mb-2">Your Partner</h3>
               <p className="text-slate-600 dark:text-slate-400 text-sm">
-                We act as a long-term partner for our clients.
+                We're in this together. Your success is our success.
               </p>
             </div>
           </div>

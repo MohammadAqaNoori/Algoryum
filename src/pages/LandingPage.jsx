@@ -15,7 +15,7 @@ const LandingPage = () => {
                 Bringing Local Businesses Online — Simply
               </h1>
               <p className="text-graphite/70 dark:text-slate-400 text-lg md:text-xl">
-                Empowering local commerce through strategic digital transition and enterprise-grade visibility solutions.
+                We help local businesses get online without the hassle. Simple websites, real results.
               </p>
               <div className="flex flex-wrap gap-4">
                 <button className="bg-primary hover:bg-primary/90 text-white px-8 py-4 rounded-lg font-bold flex items-center gap-2">
@@ -38,26 +38,26 @@ const LandingPage = () => {
           <div className="mx-auto max-w-[1200px] px-6">
             <div className="max-w-[720px] space-y-4 mb-12">
               <h2 className="text-primary text-sm font-bold uppercase">Analysis</h2>
-              <h3 className="text-graphite dark:text-white text-4xl font-black">The Invisibility Crisis</h3>
+              <h3 className="text-graphite dark:text-white text-4xl font-black">Why Local Businesses Struggle Online</h3>
               <p className="text-graphite/70 dark:text-slate-400 text-lg">
-                Local businesses often struggle to bridge the gap between physical excellence and digital presence.
+                You're great at what you do, but getting found online is a different challenge.
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="p-8 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl">
                 <span className="material-symbols-outlined text-primary text-3xl mb-4">location_on</span>
                 <h4 className="text-graphite dark:text-white text-xl font-bold mb-2">Limited Reach</h4>
-                <p className="text-graphite/60 dark:text-slate-400 text-sm">Physical storefronts are restricted by geography.</p>
+                <p className="text-graphite/60 dark:text-slate-400 text-sm">Your shop is great, but people can't find you if they don't walk by.</p>
               </div>
               <div className="p-8 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl">
                 <span className="material-symbols-outlined text-primary text-3xl mb-4">fingerprint</span>
-                <h4 className="text-graphite dark:text-white text-xl font-bold mb-2">Fragmented Identity</h4>
-                <p className="text-graphite/60 dark:text-slate-400 text-sm">Inconsistent branding across platforms dilutes trust.</p>
+                <h4 className="text-graphite dark:text-white text-xl font-bold mb-2">Confusing Online Presence</h4>
+                <p className="text-graphite/60 dark:text-slate-400 text-sm">Different info on Google, Facebook, and Instagram makes customers unsure.</p>
               </div>
               <div className="p-8 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl">
                 <span className="material-symbols-outlined text-primary text-3xl mb-4">memory</span>
-                <h4 className="text-graphite dark:text-white text-xl font-bold mb-2">Operational Friction</h4>
-                <p className="text-graphite/60 dark:text-slate-400 text-sm">Transitioning online shouldn't complicate your business.</p>
+                <h4 className="text-graphite dark:text-white text-xl font-bold mb-2">Too Complicated</h4>
+                <p className="text-graphite/60 dark:text-slate-400 text-sm">Going online shouldn't feel like learning a new language.</p>
               </div>
             </div>
           </div>
@@ -65,9 +65,9 @@ const LandingPage = () => {
 
         <section className="bg-primary py-20">
           <div className="mx-auto max-w-[960px] px-6 text-center text-white space-y-8">
-            <h2 className="text-4xl md:text-5xl font-black">Ready for a professional transition?</h2>
+            <h2 className="text-4xl md:text-5xl font-black">Ready to Get Your Business Online?</h2>
             <p className="text-white/80 text-lg md:text-xl max-w-[600px] mx-auto">
-              Join the network of local businesses evolving with ALGORYUM.
+              Join hundreds of local businesses who've made the move with Algoryum.
             </p>
             <Link to="/connect" className="inline-block bg-white text-primary hover:bg-slate-100 px-10 py-4 rounded-lg font-bold">
               Request Consultation

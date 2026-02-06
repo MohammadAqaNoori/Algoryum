@@ -76,7 +76,7 @@ const ConnectPage = () => {
                   <input 
                     type="text" 
                     className="w-full px-4 py-3 rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800"
-                    placeholder="John Doe"
+                    placeholder="Your Name"
                   />
                 </div>
                 <div>
@@ -84,7 +84,7 @@ const ConnectPage = () => {
                   <input 
                     type="email" 
                     className="w-full px-4 py-3 rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800"
-                    placeholder="john@example.com"
+                    placeholder="youremail@example.com"
                   />
                 </div>
               </div>

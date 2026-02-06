@@ -31,9 +31,9 @@ const ConnectPage = () => {
               <p className="text-slate-600 dark:text-slate-400 text-sm mb-4">
                 Need a quick answer? Message us on WhatsApp.
               </p>
-              <button className="mt-auto bg-primary text-white px-4 py-2 rounded-lg font-bold">
+              <a href="https://wa.me/93708824113" target="_blank" rel="noopener noreferrer" className="mt-auto bg-primary text-white px-4 py-2 rounded-lg font-bold inline-block text-center">
                 Start Chat
-              </button>
+              </a>
             </div>
 
             <div className="flex flex-col p-6 bg-white dark:bg-[#1a212c] rounded-xl border border-slate-100 dark:border-slate-800">
@@ -42,11 +42,11 @@ const ConnectPage = () => {
               </div>
               <h3 className="text-xl font-bold mb-2">Email</h3>
               <p className="text-slate-600 dark:text-slate-400 text-sm mb-4">
-                Detailed inquiries welcome.
+                Send us a detailed message anytime.
               </p>
-              <button className="mt-auto border border-slate-200 dark:border-slate-700 px-4 py-2 rounded-lg font-bold">
+              <a href="mailto:algoryum.ai@gmail.com" className="mt-auto border border-slate-200 dark:border-slate-700 px-4 py-2 rounded-lg font-bold inline-block text-center">
                 Send Email
-              </button>
+              </a>
             </div>
 
             <div className="flex flex-col p-6 bg-white dark:bg-[#1a212c] rounded-xl border border-slate-100 dark:border-slate-800">

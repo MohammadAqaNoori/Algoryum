@@ -15,8 +15,18 @@ const Footer = () => {
               <h2 className="text-graphite dark:text-white text-xl font-black uppercase">ALGORYUM</h2>
             </div>
             <p className="text-graphite/60 dark:text-slate-400 text-sm leading-relaxed max-w-[320px]">
-              Strategic digital transition for local businesses. Built on architectural principles of clarity, structure, and scale.
+              Helping local businesses get online and grow. Simple, effective, and built for you.
             </p>
+            <div className="space-y-2 text-sm">
+              <div className="flex items-center gap-2 text-graphite/70 dark:text-slate-400">
+                <span className="material-symbols-outlined text-primary text-lg">phone</span>
+                <a href="https://wa.me/93708824113" className="hover:text-primary transition-colors">+93 70 882 4113</a>
+              </div>
+              <div className="flex items-center gap-2 text-graphite/70 dark:text-slate-400">
+                <span className="material-symbols-outlined text-primary text-lg">mail</span>
+                <a href="mailto:algoryum.ai@gmail.com" className="hover:text-primary transition-colors">algoryum.ai@gmail.com</a>
+              </div>
+            </div>
           </div>
           <div className="space-y-4">
             <h4 className="text-graphite dark:text-white font-bold uppercase text-xs tracking-widest">Company</h4>
@@ -29,9 +39,8 @@ const Footer = () => {
           <div className="space-y-4">
             <h4 className="text-graphite dark:text-white font-bold uppercase text-xs tracking-widest">Connect</h4>
             <nav className="flex flex-col gap-2">
-              <a href="#" className="text-graphite/60 dark:text-slate-400 text-sm hover:text-primary transition-colors">WhatsApp</a>
-              <a href="#" className="text-graphite/60 dark:text-slate-400 text-sm hover:text-primary transition-colors">LinkedIn</a>
-              <a href="#" className="text-graphite/60 dark:text-slate-400 text-sm hover:text-primary transition-colors">Twitter</a>
+              <a href="https://wa.me/93708824113" target="_blank" rel="noopener noreferrer" className="text-graphite/60 dark:text-slate-400 text-sm hover:text-primary transition-colors">WhatsApp</a>
+              <Link to="/connect" className="text-graphite/60 dark:text-slate-400 text-sm hover:text-primary transition-colors">Contact Us</Link>
             </nav>
           </div>
         </div>

@@ -18,10 +18,10 @@ const LandingPage = () => {
                 We help local businesses get online without the hassle. Simple websites, real results.
               </p>
               <div className="flex flex-wrap gap-4">
-                <button className="bg-primary hover:bg-primary/90 text-white px-8 py-4 rounded-lg font-bold flex items-center gap-2">
+                <a href="https://wa.me/93708824113" target="_blank" rel="noopener noreferrer" className="bg-primary hover:bg-primary/90 text-white px-8 py-4 rounded-lg font-bold flex items-center gap-2">
                   <span className="material-symbols-outlined">chat</span>
                   Talk on WhatsApp
-                </button>
+                </a>
                 <Link to="/process" className="border-2 border-slate-200 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-800 text-graphite dark:text-white px-8 py-4 rounded-lg font-bold">
                   See How It Works
                 </Link>
